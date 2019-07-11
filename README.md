@@ -23,7 +23,7 @@ npm i graphql-type-json graphql-iso-date
 ```
 
 * Copy `schema/_codegen.graphql` into your project
-* Copy the directives from `schema/schemaDirectives.js` into your project
+* Copy the directives from `resolvers/schemaDirectives.js` into your project
 * Have a look at `server.js` for ideas on how to setup your GraphQL server
 * Have a look at `codegen.yml` for ideas on how to use the plugins
 * Have a look at `package.json` `scripts` for action-recipes.
