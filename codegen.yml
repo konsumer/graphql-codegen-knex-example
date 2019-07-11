@@ -1,0 +1,10 @@
+# this is an example codegen.yml
+
+schema: ./schema/**/*.graphql
+generates:
+  migrations/0_generated.js:
+    plugins:
+      - graphql-codegen-knex-migration
+  resolvers/0_generated-joinmonster.js:
+    plugins:
+      - graphql-codegen-knex-joinmonster

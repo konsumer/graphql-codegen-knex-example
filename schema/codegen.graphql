@@ -1,0 +1,11 @@
+# these are used by graphql-codegen-knex-migration
+# they are optional, but will keep other code from erroring, if I use these schemas for other things
+
+# set a type as a database-model
+directive @db on OBJECT
+
+# leave a field out of the database (resolver-only)
+directive @nodb on FIELD | FIELD_DEFINITION
+
+# link to another table's field for relation
+directive @link(field: String!) on FIELD | FIELD_DEFINITION
