@@ -11,6 +11,7 @@ git clone https://github.com/konsumer/graphql-codegen-knex-example.git
 cd graphql-codegen-knex-example
 npm i            # install dev-dependencies
 npm run generate # run graphql-codegen to generate migrations & join-monster info
+npm start        # start the example server
 ```
 
 
@@ -21,8 +22,8 @@ npm i -D knex @graphql-codegen/cli graphql graphql-codegen-knex-joinmonster grap
 npm i graphql-type-json graphql-iso-date
 ```
 
-* Copy schema/_codegen.graphql into your project
-* Copy the directives from schema/schemaDirectives.js into your project
-* Have a look at server.js for ideas on how to setup your GraphQL server
-* Have a look at codegen.yml for ideas on how to use the plugins
-* Have a look at package.json `scripts` for action-recipes.
+* Copy `schema/_codegen.graphql` into your project
+* Copy the directives from `schema/schemaDirectives.js` into your project
+* Have a look at `server.js` for ideas on how to setup your GraphQL server
+* Have a look at `codegen.yml` for ideas on how to use the plugins
+* Have a look at `package.json` `scripts` for action-recipes.
