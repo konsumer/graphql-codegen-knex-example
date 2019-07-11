@@ -1,3 +1,10 @@
+# these are shared extended scalars that the code generation understands
+
+scalar Date
+scalar DateTime
+scalar Time
+scalar JSON
+
 # these are used by graphql-codegen-knex-migration
 # they are optional, but will keep other code from erroring, if I use these schemas for other things
 
